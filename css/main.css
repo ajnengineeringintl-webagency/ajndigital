@@ -136,6 +136,7 @@ section{
     align-items:center;
 
     justify-content:center;
+    background-color: var(--background-dark); 
     padding:10px 0 ;
 }
 
@@ -183,8 +184,18 @@ section{
 }
 
 .oh{
-  justify-content: center;
   align-items: center;
+  justify-content:center;
+  
+  margin: 30px 0;
+  gap: 0;
+  text-align: center;
+}
+.oh div{
+  background-color: #3c3c3c;
+    height: 5px;
+    width:250px;
+  
 }
 
 /* ===== Testimonials ===== */
